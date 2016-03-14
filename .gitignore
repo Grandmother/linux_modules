@@ -1,1 +1,7 @@
 .idea/*
+hello-1.ko
+hello-1.mod.c
+hello-1.mod.o
+hello-1.mod.o hello-1.o
+modules.order
+Module.symvers
