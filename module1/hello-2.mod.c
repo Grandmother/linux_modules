@@ -18,6 +18,11 @@ static const struct modversion_info ____versions[]
 __used
 __attribute__((section("__versions"))) = {
 	{ 0x34d1b86, __VMLINUX_SYMBOL_STR(module_layout) },
+	{ 0xe766308c, __VMLINUX_SYMBOL_STR(param_ops_short) },
+	{ 0xf461da2c, __VMLINUX_SYMBOL_STR(param_ops_long) },
+	{ 0x60038020, __VMLINUX_SYMBOL_STR(param_ops_charp) },
+	{ 0xd48cb9fd, __VMLINUX_SYMBOL_STR(param_ops_int) },
+	{ 0x1df0f371, __VMLINUX_SYMBOL_STR(param_array_ops) },
 	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
 };
 
