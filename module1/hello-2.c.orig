@@ -1,0 +1,23 @@
+/*
+     *  hello-2.c - Demonstrating the module_init() and module_exit() macros.
+      *  This is preferred over using init_module() and cleanup_module().
+       */
+
+#include <linux/module.h>
+#include <linux/kernel.h>
+#include <linux/init.h>
+
+
+static int __init hello_init(void)
+{
+    printk(KERN_INFO "hello 2.0 is here!!1");
+    return 0;
+}
+
+static void __exit hello_bye(void)
+{
+    printk(KERN_INFO "See you in hello-3!");
+}
+
+module_init(hello_init);
+module_exit(hello_bye);
