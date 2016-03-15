@@ -1,1 +1,0 @@
-cmd_/home/kovtyukhrd/projects/C/linux_modules/module1/hello-1.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/kovtyukhrd/projects/C/linux_modules/module1/hello-1.ko /home/kovtyukhrd/projects/C/linux_modules/module1/hello-1.o /home/kovtyukhrd/projects/C/linux_modules/module1/hello-1.mod.o
