@@ -1,7 +1,5 @@
-obj-m += mkdir_module.o
+obj-$(CONFIG_SECURITY_MKDIRSECURITY) := mkdir_secure.o
+#obj-$(CONFIG_SECURITY_YAMA) := yama.o
 
-all:
-	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
-
-clean:
-	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
+mkdir_secure := mkdir_secure.o
+#yama-y := yama_lsm.o
