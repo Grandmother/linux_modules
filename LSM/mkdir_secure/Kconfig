@@ -1,4 +1,4 @@
-config SECURITY_MKDIRSAFE
+config SECURITY_MKDIRSECURE
     bool "Safe mkdir module"
     default n
     help
