@@ -1,0 +1,6 @@
+config SECURITY_SECUREEDIT
+    bool "Safe files editing module"
+    default n
+    help
+        This module just disable edit functions for specified files.
+        If you are unsure how to answer this question, answer N. 
