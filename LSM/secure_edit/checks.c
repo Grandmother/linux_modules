@@ -1,6 +1,5 @@
 #include "checks.h"
 
-
 bool check_perms( struct dentry* dir )
 {
 	char* path = NULL;
@@ -71,7 +70,6 @@ void init_blocked_globs(void)
 {
     LIST_HEAD( blocked_globs.globs_list );
 }
-
 
 void destroy_blocked_users(void)
 {
