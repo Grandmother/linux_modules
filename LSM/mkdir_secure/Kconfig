@@ -1,6 +1,0 @@
-config SECURITY_MKDIRSECURE
-    bool "Safe mkdir module"
-    default n
-    help
-        This module just log all mkdir calls.
-        If you are unsure how to answer this question, answer N. 
